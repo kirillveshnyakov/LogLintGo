@@ -94,6 +94,4 @@ linters:
  go test -v ./tests/...
 ```
 
-## License
-
-MIT
+При каждом коммите запускаются тесты в CI/CD
