@@ -1,0 +1,13 @@
+# Бинари
+custom-gcl
+*.so
+*.exe
+
+# Go
+*.test
+*.out
+
+# IDE
+.idea/
+.vscode/
+*.swp
