@@ -4,9 +4,8 @@ linters:
   default: none
   enable:
     - loglinter
-
-linters-settings:
-  custom:
-    loglinter:
-      type: module
-      description: "checks log messages style and content"
+  settings:
+    custom:
+      loglinter:
+        type: "module"
+        description: "checks log messages style and content"
