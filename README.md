@@ -53,6 +53,13 @@ go vet -vettool=$(which loglinter) ./...
 
 ### Вариант 2:
 
+### Установка golangci-lint
+
+```bash
+curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh \
+  | sh -s -- -b $(go env GOPATH)/bin latest
+```
+
 #### Скопировать необходимые файлы в свой проект
 ```bash
 cp ./custom-gcl /path/to/other-project/
