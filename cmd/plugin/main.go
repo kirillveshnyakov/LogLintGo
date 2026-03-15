@@ -1,4 +1,4 @@
-package main
+package plugin
 
 import (
 	"github.com/kirillveshnyakov/LogLintGo/internal/loglinter"
@@ -10,5 +10,3 @@ func New(conf any) ([]*analysis.Analyzer, error) {
 		loglinter.Analyzer,
 	}, nil
 }
-
-func main() {}

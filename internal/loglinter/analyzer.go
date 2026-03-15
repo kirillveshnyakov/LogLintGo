@@ -10,7 +10,7 @@ import (
 )
 
 var Analyzer = &analysis.Analyzer{
-	Name:     "loglint",
+	Name:     "loglinter",
 	Doc:      "checks log messages",
 	Run:      run,
 	Requires: []*analysis.Analyzer{inspect.Analyzer},
